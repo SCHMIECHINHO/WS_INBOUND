@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+			   xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ZFwsbWriteToDb>
+         <!--Optional:-->
+         <IvTableName>ZSO_HEAD</IvTableName>
+         <IvXml><![CDATA[
+         		<?xml version="1.0" encoding="UTF-8"?>
+			<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+    			<asx:values>
+    				<VALUES>
+                     <item>
+                        <CLIENT>200</CLIENT>
+                        <SALESORDER>4711</SALESORDER>
+                     </item>
+                   </VALUES>
+			</asx:values>
+			</asx:abap>]]>
+		</IvXml>
+      </urn:ZFwsbWriteToDb>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
