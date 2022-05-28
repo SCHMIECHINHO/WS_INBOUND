@@ -1,0 +1,8 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Header/>
+   <soap-env:Body>
+      <n0:ZFwsbWriteToDbResponse xmlns:n0="urn:sap-com:document:sap:soap:functions:mc-style">
+         <EtReturn/>
+      </n0:ZFwsbWriteToDbResponse>
+   </soap-env:Body>
+</soap-env:Envelope>
