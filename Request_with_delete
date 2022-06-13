@@ -27,7 +27,7 @@
                      <item>
                         <FIELD>SALESORDER</FIELD>
                         <VALUE>4711</VALUE>
-                        <OPERATOR>4711</OPERATOR>
+                        <OPERATOR></OPERATOR>
                      </item>
                    </VALUES>
 			</asx:values>
